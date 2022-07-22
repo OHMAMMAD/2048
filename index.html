@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>2048</title>
+  </head>
+  <body>
+    <div class="feedback-container">
+      <a href="" class="feedback-button">Send Feedback</a>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="top-info">
+          <div class="title-container">
+            <h1 class="title">2048</h1>
+          </div>
+          <div class="scores-container">
+            <div class="score-div">
+              <p>SCORE</p>
+              <p class="score" id="score">0</p>
+            </div>
+            <div class="best-score-div">
+              <p>BEST</p>
+              <p class="best-score" id="best-score">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-info">
+          <div class="info-container">
+            <p class="game-intro">
+              Join the tiles, get to <strong>2048!</strong>
+              <br>
+              <a class="game-intro" href=""><strong>How to play -></strong></a>
+            </p>
+          </div>
+          <div class="game-button-container">
+            <button class="game-button">New Game</button>
+          </div>
+        </div>
+        <div class="game-container"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

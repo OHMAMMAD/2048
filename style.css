@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+
+
+:root {
+  --background: #faf8ef;
+  --theme-brown: #8f7a66;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: var(--background);
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.feedback-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.feedback-button {
+  background-color: var(--theme-brown);
+  padding: 5px 10px;
+  border-bottom-left-radius: 5px;
+  color: var(--background);
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 100vh;
+  margin: 30px;
+}
+
+.title {
+  color: #776e65;
+  font-size: 5.5em;
+  margin-bottom: 30px;
+  line-height: .8;
+}
+
+.top-info, .bottom-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score-div, .best-score-div {
+  background-color: #bbada0;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 3px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 12px;
+  height: 45px;
+}
+
+.game-button {
+  border: none;
+  border-radius: 2px;
+  background-color: var(--theme-brown);
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.game-intro {
+  color: #776e65;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.info-container, .game-button-container {
+  width: fit-content;
+}
+
+.score#score, .best-score#best-score {
+  font-weight: 900;
+  font-size: 28px;
+}
